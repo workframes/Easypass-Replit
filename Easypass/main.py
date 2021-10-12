@@ -30,7 +30,7 @@ class Easypass():
         driverOptions = Options()
         driverOptions.add_argument("--headless")
         driverOptions.add_argument('--no-sandbox')  
-        Driver = webdriver.Chrome(executable_path=DriverPath, options=driverOptions)
+        Driver = webdriver.Chrome( options=driverOptions)
         Driver.set_window_size(500, 1080)
         Log("Created driver", Email)
 
@@ -43,6 +43,7 @@ class Easypass():
         Log("Created Microsoft login session", Email)
 
         #Input Email
+        time.sleep(checkDebounce)
         emailInput = GetElement("Id", "input", "i0116", Driver, Email)
         emailInput.send_keys(Email)
         Log("Inputted email", Email)
@@ -53,7 +54,9 @@ class Easypass():
         Log("Proceeding to password", Email)
 
         #Input Password
+        time.sleep(checkDebounce)
         passwordInput = GetElement("Id", "input", "i0118", Driver, Email)
+        print(Password)
         passwordInput.send_keys(Password)
         Log("Inputted password", Email)
 
