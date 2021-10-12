@@ -1,10 +1,23 @@
 #import
 from Easypass import Easypass
+import schedule , time, keep_alive
+keep_alive.keep_alive()
 
 #variables
-Easypass = Easypass("dailypass.bot@gmail.com", "wmqbxdjjycqqsoqd")
-driverPath = "/Users/yoosuf/Desktop/DailyPassAutomator/chromedriver"
+Easypass = Easypass("BOT_EMAIL", "BOT_EMAIL_PASSWORD")
+driverPath = ""
 
 #functions
-Easypass.GetPass("mmohamed0006@mymail.lausd.net", "Yoosuf140", "7472960595@tmomail.net", driverPath, 1)
-Easypass.GetPass("ymohamed0006@mymail.lausd.net", "mayall3018", "7472509720@tmomail.net", driverPath, 1)
+def DailyFunc():
+  Easypass.GetPass("LAUSD_EMAIL", "LAUSD_EMAIL", "MMS_PHONE_NUMBER", driverPath, 1)
+
+
+schedule.every().monday.at("13:40").do(DailyFunc)
+schedule.every().tuesday.at("13:40").do(DailyFunc)
+schedule.every().wednesday.at("13:40").do(DailyFunc)
+schedule.every().thursday.at("13:40").do(DailyFunc)
+schedule.every().friday.at("13:40").do(DailyFunc)
+
+while True:
+  schedule.run_pending()
+  time.sleep(1)
