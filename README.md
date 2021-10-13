@@ -50,8 +50,7 @@
 	- For `LAUSD_EMAIL` replace it with your `@mymail.lausd.net` email.
 	- For `LAUSD_PASSWORD` replace it with your password to your `@mymail.lausd.net` email.
 10. Now for the `MMS_PHONE_NUMBER` field, this will depend on your phone provider, Read the chart below to figure your MMS number. 
-	- 
-	| | Provider | Extenstion | 
+	- | | Provider | Extenstion | 
 	| -------       | ---  | 
 	| | AT&T | @mms.att.net |
 	| | Boost Mobile | @myboostmobile.com |
@@ -67,6 +66,7 @@
 	| | Verizon| @vzwpix.com |
 	| | Virgin Mobile | @vmpix.com |
 	| | Xfinity Mobile | @mypixmessages.com |
+	
 	- Now that you found your extension format it with your number first ending with your extension, for example `7472960595@tmomail.net`
 11. Now the files  `Images`, `README.md` from the tab to your left. To delete just click the file and right then click `Delete`
 12. Open the `.replit` file and edit it to this `run="python3 main.py`
