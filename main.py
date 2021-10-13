@@ -4,12 +4,12 @@ import schedule , time, keep_alive
 keep_alive.keep_alive()
 
 #variables
-Easypass = Easypass("BOT_EMAIL", "BOT_EMAIL_PASSWORD")
+Easypass = Easypass("BOT_EMAIL", "BOT_PASSWORD")
 driverPath = ""
 
 #functions
 def DailyFunc():
-  Easypass.GetPass("LAUSD_EMAIL", "LAUSD_EMAIL", "MMS_PHONE_NUMBER", driverPath, 1)
+  Easypass.GetPass("LAUSD_EMAIL", "LAUSD_PASSWORD", "MMS_PHONE_NUMBER", driverPath, 1)
 
 
 schedule.every().monday.at("13:40").do(DailyFunc)
