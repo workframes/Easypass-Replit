@@ -50,7 +50,8 @@
 	- For `LAUSD_EMAIL` replace it with your `@mymail.lausd.net` email.
 	- For `LAUSD_PASSWORD` replace it with your password to your `@mymail.lausd.net` email.
 10. Now for the `MMS_PHONE_NUMBER` field, this will depend on your phone provider, Read the chart below to figure your MMS number. 
-	- | | Provider | Extenstion | 
+
+	| | Provider | Extenstion | 
 	| -------       | ---  | 
 	| | AT&T | @mms.att.net |
 	| | Boost Mobile | @myboostmobile.com |
