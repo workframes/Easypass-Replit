@@ -51,22 +51,22 @@
 	- For `LAUSD_PASSWORD` replace it with your password to your `@mymail.lausd.net` email.
 10. Now for the `MMS_PHONE_NUMBER` field, this will depend on your phone provider, Read the chart below to figure your MMS number. 
 
-	| | Provider | Extenstion | 
-	| -------       | ---  | 
-	| | AT&T | @mms.att.net |
-	| | Boost Mobile | @myboostmobile.com |
-	| | Cricket Wireless | @mms.cricketwireless.net |
-	| | Google Project Fi | @msg.fi.google.com |
-	| | Metro PCS | @mymetropcs.com |
-	| | Page Plus | @mypixmessages.com |
-	| | Sprint | @pm.sprint.com |
-	| | Straight Talk | @mypixmessages.com |
-	| | T-Mobile | @tmomail.net |
-	| | Tracfone | @mmst5.tracfone.com |
-	| | U.S. Cellular | @mms.uscc.net |
-	| | Verizon| @vzwpix.com |
-	| | Virgin Mobile | @vmpix.com |
-	| | Xfinity Mobile | @mypixmessages.com |
+	| Provider | Extenstion | 
+	-------    | ---  | 
+	| AT&T | @mms.att.net |
+	| Boost Mobile | @myboostmobile.com |
+	| Cricket Wireless | @mms.cricketwireless.net |
+	| Google Project Fi | @msg.fi.google.com |
+	| Metro PCS | @mymetropcs.com |
+	| Page Plus | @mypixmessages.com |
+	| Sprint | @pm.sprint.com |
+	| Straight Talk | @mypixmessages.com |
+	| T-Mobile | @tmomail.net |
+	| Tracfone | @mmst5.tracfone.com |
+	| U.S. Cellular | @mms.uscc.net |
+	| Verizon| @vzwpix.com |
+    | Virgin Mobile | @vmpix.com |
+	| Xfinity Mobile | @mypixmessages.com |
 	
 	- Now that you found your extension format it with your number first ending with your extension, for example `7472960595@tmomail.net`
 11. Now the files  `Images`, `README.md` from the tab to your left. To delete just click the file and right then click `Delete`
@@ -91,5 +91,3 @@
 # Conclusion
 - Enjoy the bot!
 - If you do need help with setting up the bot, join my discord server at [shrmp.io](http://shrmp.io/) or add my discord `frames#4888`
-
-	
