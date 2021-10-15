@@ -1,4 +1,4 @@
-# Easypass 🍤
+# Easypass 🍤🦐
 
 ## About Easypass
 - Easypass is a module made with python that automates the process of getting the LAUSD [Dailypass](https://pap.lausd.net/en-US/).
